@@ -5,3 +5,14 @@
 body {
   background: purple;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
